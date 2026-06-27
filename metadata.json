@@ -1,0 +1,6 @@
+{
+  "name": "uncSLOP",
+  "description": "The ultimate retro-gaming Solana memecoin for the legendary classics young bloods call unc slop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
