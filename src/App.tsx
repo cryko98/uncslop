@@ -485,6 +485,16 @@ export default function App() {
           {/* Logo & Radar */}
           <div className="flex items-center gap-4 w-full md:w-auto justify-between md:justify-start">
             <div className="flex items-center gap-3">
+              {/* Circular Logo Image */}
+              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden border-4 border-neutral-700 bg-neutral-950 shrink-0 shadow-lg relative group">
+                <img 
+                  src="https://pbs.twimg.com/profile_images/2070925440907091968/wFMpqVmp_400x400.jpg" 
+                  alt="uncSLOP Logo" 
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+
               {/* Radar Simulator */}
               <div className="relative w-12 h-12 md:w-14 md:h-14 rounded-full border-4 border-neutral-700 bg-emerald-950 overflow-hidden flex items-center justify-center shrink-0">
                 <div className="absolute inset-0 border-t-2 border-r-2 border-emerald-400 rounded-full animate-spin duration-3000 opacity-40"></div>
